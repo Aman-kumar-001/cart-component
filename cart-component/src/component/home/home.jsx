@@ -1,14 +1,18 @@
 import React from 'react'
 import '../home/home.css';
 import Header from '../header/header';
+import Products from '../products/products';
 
-function home({productItem}) {
+const Home =({productItem , handleAddProduct}) => {
+
+  
+
   return (
     <div>
-        
-       <Header productItem={productItem}/>
+       <Header />
+       <Products productItem={productItem} handleAddProduct={handleAddProduct}/>
     </div>
   )
 }
 
-export default home;
+export default Home;

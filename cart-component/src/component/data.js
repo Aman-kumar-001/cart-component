@@ -1,4 +1,5 @@
-[
+const data ={
+  productItem:[
     {
         "id": 1,
         "name": "Aspirin",
@@ -109,3 +110,6 @@
         "url": "https://i.imgur.com/umX8PKn.png"
       }
 ]
+}
+
+export default  data;

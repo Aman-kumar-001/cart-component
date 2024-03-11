@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .box{
-    height: 0px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;

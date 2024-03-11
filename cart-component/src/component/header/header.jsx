@@ -1,9 +1,10 @@
 import React from "react";
 import "../header/header.css";
 import { Link } from "react-router-dom";
-import Products from "../products/products";
+// import Products from "../products/products";
 
-function Header({productItem}) {
+function Header() {
+  
   return (
     <>
     <div className="box">
@@ -18,7 +19,7 @@ function Header({productItem}) {
       </div>
       </div>
 
-      <Products productItem={productItem}/>
+      
     </>
   );
 }
